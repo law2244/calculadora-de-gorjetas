@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lato:wght@400;900&family=Manrope:wght@500;700&family=Overpass:wght@400;700&family=Roboto:wght@100;700&family=Space+Mono:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Space Mono';
+    background-color: #C4E4E7
+}
+
+
+.conteiner{
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    justify-content: baseline;
+    background-color: #fff;
+    border-radius: 10px ;
+
+}
+.pt1{
+    padding: 30px;
+}
+.pt2{
+    background-color: #00494D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.valor_compra input,
+.persons_amount input{
+    border: 0;
+    outline: 0;
+    text-align: end;
+    padding: 0.7rem 1rem;
+    width: 90%;
+    font-family: 'Space Mono';
+    background-color: #F2F8FB;
+    color: #5E7A7D;
+    border-radius: 5px
+}
+.valor_compra input:focus,
+.persons_amount input:focus{
+    border: 2px solid #36BAA9
+}
+.valor_compra img ,
+.persons_amount img{
+    margin-right: -2rem;
+    margin-top: 1rem;
+    position: relative;
+
+
+}
+.persons_amount,
+.valor_compra{
+    position: relative;
+}
+
+.valor_compra{
+    margin-bottom: 1.5rem;
+
+}
+.persons_amount{
+    margin-top: 1.5rem
+}
+.qd_person input{
+    position: absolute;
+    top: 0
+} 
+.title_descripition{
+    color: #5E7A7D;
+    font-size: 14px;
+    margin-bottom: 0.5rem
+}
+
+.aviso_error{
+    display: none;
+    margin-left: 2rem;
+    color: #f00
+}
+.qd_person{
+    position: relative;
+}
+
+.selecione_valores{
+    display: grid;
+    grid-template-columns : repeat( 3 , auto);
+    gap: 10px;
+  
+}
+.selecione_valores button{
+    font-family: 'Space Mono';
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0.2rem ;
+    padding-bottom: 0.2rem ;
+    color: #fff;
+    background-color: #00494D;
+    border-radius: 5px;
+    border: 0
+}
+.selecione_valores button:hover{
+    background-color: #36BAA9;
+}
+.selecione_valores button:focus{
+    background-color: #26C3AE;
+}
+.selecione_valores input{
+    background-color: #F2F8FB;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    color: #5E7A7D
+}
+.selecione_valores input:focus{
+    border: 2px solid #36BAA9
+}
+.selecione_valores input::placeholder{
+    color: #5E7A7D;
+    font-size: 1.3rem
+}
+.selecione_valores button,
+.selecione_valores input{
+    width: 6rem
+}
+.value_ammout,
+.value_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.value_ammout .descripition_value{
+        color: #fff;
+        font-size: 14px
+}
+.value_ammout .descripition_value span{
+    color: #5E7A7D;
+    font-size: 13px
+}
+.value_ammout .value_monney{
+    color: #36BAA9;
+    font-size: 42px
+}
+
+.value_total .value_monney1{
+    color: #36BAA9;
+    font-size: 42px
+}
+.value_total .descripition_value{
+    color: #fff;
+    font-size: 14px
+}
+.value_total .descripition_value span{
+color: #5E7A7D;
+font-size: 13px
+}
+.value_monney{
+    margin-left: 5rem
+}
+.value_total{
+    margin-top: 2rem;
+}
+.pt2 button{
+    color:#00494D;
+    font-size: 23px;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 0;
+    background:  hsl(184, 14%, 56%);
+    margin-top: 5rem
+}
+.pt2 button
+/* class js */
+
+.aviso_error{
+    display: inline
+    
+}
+.borderjs{
+    border: 1px solid #F00
+}

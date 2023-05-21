@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calc gorjeta</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   
+   <div class="conteiner">
+        <div class="pt1">
+            <div class="valor_compra">
+                <div class="title_descripition">
+                    bill
+                 </div>
+                    <img src="assets/images/icon-dollar.svg" alt="">
+                    <input 
+                    type="number" 
+                    class="contaValue"
+                    />
+            </div>
+            <div class="poecetagen_gorjeta">
+                <div class="title_descripition">
+                    select tip %
+                 </div>
+                 <div class="selecione_valores">
+                     <button class="button5" > 5% </button>
+                     <button class="button10"> 10%</button>
+                     <button class="button15"> 15% </button>
+                     <button class="button25">25%</button>
+                     <button class="button50">50%</button>
+                     <input 
+                     type="text"
+                     class="inputPct_personalize"
+                     placeholder="custom"
+                     >
+                 </div>
+                 <div class="persons_amount" >
+                    <div class="title_descripition">
+                        number od people
+                        <span class="aviso_error">
+                            can't be zero
+                         </span>
+                     </div>
+                    <img src="assets/images/icon-person.svg" alt="">
+                    <input 
+                    type="number" 
+                    class="numberPerson"
+                    />
+                 </div>
+            </div>
+        </div>
+        <!-- parte do calc -->
+        <div class="pt2">
+            <div class="value_ammout">
+                <div class="descripition_value">
+                    tip ammount <br>
+                    <span> / person</span>
+                </div>
+                <div class="value_monney">
+                    $0.00
+                </div>
+            </div> 
+            <div class="value_total">
+                <div class="descripition_value">
+                    total <br>
+                    <span> /person</span>
+
+                </div>
+                <div class="value_monney1">
+                    $0.00
+                </div>
+            </div> 
+            <button id="buttonResult">
+                reset
+            </button>
+        </div>
+
+   </div>
+ 
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
