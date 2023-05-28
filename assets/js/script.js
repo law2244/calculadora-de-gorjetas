@@ -250,6 +250,13 @@ inputValueConta.addEventListener("keyup" , () => {
     let errorZero = document.querySelector(".aviso_error")
     errorZero.style.display = "none"
   }
+
+  if(isFinite(a) ){
+    return true
+  } else{
+    a.innerHTML = "$0.00"
+    valueTotal.innerHTML = "$0.00"
+  }
     
 })
      
